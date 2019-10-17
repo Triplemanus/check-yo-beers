@@ -54,19 +54,49 @@ margin: 5px 20px;
   height: 20px;
 }
 
- body {
-     display: grid;
- }
- header {
+body {
+  display: grid;
+}
+
+header {
   background-color: #1f1f3d;
   display: flex;
   justify-content: space-between;
   height: 60px;
   align-items: center;
 }
-.head-right {
-  align-items: right;  
-  display: inline-block;
-  margin: 5px 20px;
-    
+
+.section-left-menu {
+  background-color: #587a8b;  
+  height: 600px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 30% 65%;
+  border: 1px solid black; 
+}
+
+h1 {
+  color: #FFF;
+  font-weight: ExtraBold;
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+.input-labels-content-container {
+  width: 100%;
+  display: flex;
+}
+#input-labels-task-title-input {
+  height: 40px;
+}
+
+#input-item{
+  width: 82%;
+}
+.btn-add-beer {
+  height: 40px;
+  width: 18%;
+  border: 1px solid #1F1F3D;
 }

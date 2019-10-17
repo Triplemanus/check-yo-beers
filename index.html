@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:lighter,400,extrabold,800" rel="stylesheet">
     <title>Check Yo' Beers</title>
   </head>
-  <main>
+  <body>
     <header class='header-container'>
         <section class="header-title"> 
           <h1>CHECK  <span class="title-yellow-text">YO'</span> BEERS</h1>
@@ -17,17 +17,30 @@
             <img class='search-mag' src='assets/search.svg' alt="Beer search" />
           </div>
           <input type='text' class='search-beers'>
-
         </form>
-      
     </header>
-      <body>
-      <section class="section-menu">
-        
+    <main>
+      <section class="section-left-menu">
+        <article class='beer-input-form'>
+          <form class='add-beer-card'>
+            <div>
+              <label class="beer-title-label" for="beer-title">Beer Title</label>
+              <input type='text' class='input-beer-title' name='beer-title' alt='input title for beer'/>
+            </div>
+            <div class="input-labels">
+              <label for="input-item">Beer Description</label>
+              <div class="input-labels-content-container">
+                <input id="input-item" type="text" name="beer-desc" alt="Input for task list item">
+                <img  class="btn-add-beer" src="assets/plus.svg" name="add-item"> 
+              </div>
+            </div>
+          </form>
+
+        </article>
       </section>
       <section class="card-display">
         
       </section>
-    </body>
-  </main>
+    </main>
+  </body>
 </html>
