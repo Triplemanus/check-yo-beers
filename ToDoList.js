@@ -6,7 +6,8 @@ class ToDoList {
     this.tasks = tasks || []
   }
 
-  saveToStorage() {
-    
+  saveToStorage(taskList) {
+    var stringifiedContact = JSON.stringify(taskList);
+    localStorage.setItem('cardArray', stringifiedContact);
   }
 }
